@@ -15,6 +15,9 @@ end
 
 # return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 
-def assign_rooms 
+def assign_rooms(array)
+  room_message = []
+  array.each_with_index do |person, room|
+    room_message << "Hello, "
   
 end 
