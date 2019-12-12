@@ -20,4 +20,5 @@ def assign_rooms(array)
   array.each_with_index do |person, room|
     room_message << "Hello, #{person}! You will be assigned to room #{room}! "
   end 
+  return room_message
 end 
